@@ -1,0 +1,194 @@
+// 20211203120340
+// http://localhost:8600/api/users
+
+{
+  "_embedded": {
+    "users": [
+      {
+        "userId": 1,
+        "personalNumber": 562,
+        "firstName": "Зиц",
+        "lastName": "Фунт",
+        "middleName": "Председатель",
+        "login": "funt_zp",
+        "positionEng": "boss",
+        "positionRus": "Начальник отдела",
+        "accessLevel": "admin",
+        "hireDate": "2017-01-01",
+        "fireDate": "2021-06-30",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/1"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/1"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/1/timedata"
+          }
+        }
+      },
+      {
+        "userId": 2,
+        "personalNumber": 449,
+        "firstName": "Остап",
+        "lastName": "Бендер",
+        "middleName": "Ибрагимович",
+        "login": "bender_oi",
+        "positionEng": "programmer",
+        "positionRus": "Программист",
+        "accessLevel": "user",
+        "hireDate": "2017-01-01",
+        "fireDate": null,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/2"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/2"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/2/timedata"
+          }
+        }
+      },
+      {
+        "userId": 3,
+        "personalNumber": 623,
+        "firstName": "Шура",
+        "lastName": "Балаганов",
+        "middleName": "Петрович",
+        "login": "balagan_off",
+        "positionEng": "programmer",
+        "positionRus": "Программист",
+        "accessLevel": "user",
+        "hireDate": "2017-01-01",
+        "fireDate": null,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/3"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/3"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/3/timedata"
+          }
+        }
+      },
+      {
+        "userId": 4,
+        "personalNumber": 655,
+        "firstName": "Михаил",
+        "lastName": "Паниковский",
+        "middleName": "Самуэлевич",
+        "login": "panic_ms",
+        "positionEng": "programmer",
+        "positionRus": "Программист",
+        "accessLevel": "user",
+        "hireDate": "2017-01-01",
+        "fireDate": null,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/4"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/4"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/4/timedata"
+          }
+        }
+      },
+      {
+        "userId": 5,
+        "personalNumber": 134,
+        "firstName": "Зося",
+        "lastName": "Синицкая",
+        "middleName": "Викторовна",
+        "login": "sin_zv",
+        "positionEng": "programmer",
+        "positionRus": "Программист",
+        "accessLevel": "user",
+        "hireDate": "2017-01-01",
+        "fireDate": null,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/5"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/5"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/5/timedata"
+          }
+        }
+      },
+      {
+        "userId": 6,
+        "personalNumber": 58,
+        "firstName": "Адам",
+        "lastName": "Козлевич",
+        "middleName": "Казимирович",
+        "login": "koz_ak",
+        "positionEng": "programmer",
+        "positionRus": "Программист",
+        "accessLevel": "user",
+        "hireDate": "2019-01-01",
+        "fireDate": "2020-12-31",
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/6"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/6"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/6/timedata"
+          }
+        }
+      },
+      {
+        "userId": 7,
+        "personalNumber": 36,
+        "firstName": "Александр",
+        "lastName": "Корейко",
+        "middleName": "Иванович",
+        "login": "koreiko_am",
+        "positionEng": "programmer",
+        "positionRus": "Программист",
+        "accessLevel": "admin",
+        "hireDate": "2019-10-01",
+        "fireDate": null,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/users/7"
+          },
+          "user": {
+            "href": "http://localhost:8600/api/users/7"
+          },
+          "timedata": {
+            "href": "http://localhost:8600/api/users/7/timedata"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8600/api/users"
+    },
+    "profile": {
+      "href": "http://localhost:8600/api/profile/users"
+    },
+    "search": {
+      "href": "http://localhost:8600/api/users/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 7,
+    "totalPages": 1,
+    "number": 0
+  }
+}

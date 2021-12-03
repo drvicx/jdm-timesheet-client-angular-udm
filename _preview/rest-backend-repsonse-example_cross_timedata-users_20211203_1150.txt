@@ -1,0 +1,27 @@
+// 20211203120923
+// http://localhost:8600/api/timedatas/31/user
+
+{
+  "userId": 2,
+  "personalNumber": 449,
+  "firstName": "Остап",
+  "lastName": "Бендер",
+  "middleName": "Ибрагимович",
+  "login": "bender_oi",
+  "positionEng": "programmer",
+  "positionRus": "Программист",
+  "accessLevel": "user",
+  "hireDate": "2017-01-01",
+  "fireDate": null,
+  "_links": {
+    "self": {
+      "href": "http://localhost:8600/api/users/2"
+    },
+    "user": {
+      "href": "http://localhost:8600/api/users/2"
+    },
+    "timedata": {
+      "href": "http://localhost:8600/api/users/2/timedata"
+    }
+  }
+}
