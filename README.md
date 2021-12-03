@@ -70,11 +70,11 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
   <br>
 
 - backend REST-API response examples ("service-timesheet"): <br>
-  1.01 - [Timesheet Service - Orgdata - getAll](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_orgdatas_20211203_1150.txt) <br>
-  2.01 - [Timesheet Service - User - getAll](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_users_20211203_1150.txt) <br>
-  3.01 - [Timesheet Service - Timedata - getAll](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_timedatas_20211203_1150.txt) <br>
-  4.01 - [Timesheet Service - Relational - Timedatas from User](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_cross_timedata-users_20211203_1150.txt) <br>
-  4.02 - [Timesheet Service - Relational - User from timedata](rest-backend-repsonse-example_cross_users-timedata_20211203_1150.txt) <br>
+  1.01 - [Timesheet Service - Orgdata - getAll](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_orgdatas_20211203_1150.json) <br>
+  2.01 - [Timesheet Service - User - getAll](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_users_20211203_1150.json) <br>
+  3.01 - [Timesheet Service - Timedata - getAll](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_timedatas_20211203_1150.json) <br>
+  4.01 - [Timesheet Service - Relational - Timedatas from User](https://github.com/drvicx/jdm-timesheet-client-angular-udm/tree/main/_preview/rest-backend-repsonse-example_cross_timedata-users_20211203_1150.json) <br>
+  4.02 - [Timesheet Service - Relational - User from timedata](rest-backend-repsonse-example_cross_users-timedata_20211203_1150.json) <br>
 
 <br>
 

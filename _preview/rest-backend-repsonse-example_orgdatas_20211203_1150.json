@@ -1,0 +1,45 @@
+// 20211203120338
+// http://localhost:8600/api/orgdatas
+
+{
+  "_embedded": {
+    "orgdatas": [
+      {
+        "recordId": 1,
+        "orgName": "ООО Рога и копыта",
+        "depName": "Отдел по заготовке рогов и копыт",
+        "okud": "123456789",
+        "okpo": "987654321",
+        "depBoss": "З.П. Фунт",
+        "responder": "З.П. Фунт",
+        "dateBegin": "2021-11-18",
+        "dateEnd": null,
+        "_links": {
+          "self": {
+            "href": "http://localhost:8600/api/orgdatas/1"
+          },
+          "orgdata": {
+            "href": "http://localhost:8600/api/orgdatas/1"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost:8600/api/orgdatas"
+    },
+    "profile": {
+      "href": "http://localhost:8600/api/profile/orgdatas"
+    },
+    "search": {
+      "href": "http://localhost:8600/api/orgdatas/search"
+    }
+  },
+  "page": {
+    "size": 20,
+    "totalElements": 1,
+    "totalPages": 1,
+    "number": 0
+  }
+}
