@@ -5,7 +5,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 <br>
 
 
-##=CHANGE LOG
+## =CHANGE LOG
 
 01: 20211203_1150:
 <pre>
@@ -14,7 +14,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 <br>
 
 
-##=INFO
+## =INFO
 
 - linked projects:<br>
   [jdm-timesheet-cloud](https://github.com/drvicx/jdm-timesheet-cloud) <br>
