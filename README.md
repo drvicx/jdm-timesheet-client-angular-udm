@@ -33,6 +33,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
   TypeScript v4.2.4 <br>
   TypeScript Compiler (tsc) v4.4.4 <br>
   Angular CLI v12.2.11 <br>
+  <br>
 
 - frontend Angular web-app endpoint: <br>
   1.01 [Angular App (main view)](http://localhost:4200) <br>
