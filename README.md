@@ -11,7 +11,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 <pre>
 - Implemented data request-output from the Timesheet service (Orgdata, User, Timedata List Components);
   ..Ладно, буду писать по Русски если вы ни..я не понимаете / Ok, I will write comments in Russian as you like..
-- Реализовано отображение данных с REST-API сервиса бакенда (Orgdata, User, Timedata);
+- Реализовано отображение данных с REST-API сервиса бакенда Timesheet (Orgdata, User, Timedata);
 </pre>
 
 01: 20211203_1150:
