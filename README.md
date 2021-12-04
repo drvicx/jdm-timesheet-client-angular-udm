@@ -86,7 +86,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =APP-PREVIEW
 
-- 1.01. Angular App default HomePage
+- 1.01. Orgdata, User, Timedata Angular Components output
 
 ![preview](_preview/angular-app-preview_20211204_2050.png?raw=true)
 
