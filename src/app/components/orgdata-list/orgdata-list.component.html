@@ -1,0 +1,24 @@
+<div class="orgdata-component-v1">
+
+  <h3>ORGDATA-LIST-COMPONENT</h3>
+
+  <p style="color: #1976D2">recordId | orgName | depName | okud | okpo | depBoss | responder | dateBeginV1 | dateBeginV2 | dateEnd</p>
+  <p *ngFor="let org of orgdatas">
+    {{ org.recordId }} |
+    {{ org.orgName }} |
+    {{ org.depName }} |
+    {{ org.okud }} |
+    {{ org.okpo }} |
+    {{ org.depBoss }} |
+    {{ org.responder }} |
+    {{ org.dateBegin }} |                         <!-- default date format: 2021-11-18 -->
+    {{ org.dateBegin | date:'dd.MM.yyyy' }} |     <!-- custom date format.: 18.11.2021 -->
+    {{ org.dateEnd }} |
+    <span *ngIf="org.dateEnd; else defaultDate">{{ org.dateEnd }}</span>
+  </p>
+
+  <ng-template #defaultDate>
+    <span> {{ today | date:'full' }} </span>
+  </ng-template>
+
+</div>

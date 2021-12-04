@@ -1,0 +1,18 @@
+.orgdata-component-v1 {
+
+  border: 0px solid red;  /* DEBUG */
+
+  /* прижимаем блок к левому краю, но он вырывается из потока родительского дива */
+  /*
+  position: absolute;
+  left: 0;
+  */
+
+  /* т.к в родительском div-контейнере в css-классе "content" используется flex-box для позиционирования,
+     то нужно использовать там-же директиву "align-items: flex-start" чтобы дочерние div-блоки прижимались к левому краю */
+}
+
+p {
+  /*font-family: Courier, monospace;*/
+  font-family: Noto Sans, sans-serif;
+}

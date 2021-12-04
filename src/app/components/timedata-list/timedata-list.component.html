@@ -1,0 +1,14 @@
+<div class="timedata-component-v1">
+
+  <h3>TIMEDATA-LIST-COMPONENT</h3>
+
+  <p style="color: #1976D2">id | userId | date | hour | type</p>
+  <p *ngFor="let timedata of timedatas.slice(0,5)">
+    {{ timedata.id }} |
+    {{ timedata.userId }} |
+    {{ timedata.date | date:'dd.MM.yyyy' }} |
+    {{ timedata.hour }} |
+    {{ timedata.type }}
+  </p>
+
+</div>
