@@ -88,7 +88,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 - 1.01. Angular App default HomePage
 
-![preview](_preview/angular-app-preview_20211203_1150.png?raw=true)
+![preview](_preview/angular-app-preview_20211204_2050.png?raw=true)
 
 <br><br>
 <hr>
