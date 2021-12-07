@@ -6,7 +6,8 @@ import { Timedata } from 'src/app/common/timedata';
 
 @Component({
   selector: 'app-timedata-list',
-  templateUrl: './timedata-list.component.html',
+  //templateUrl: './timedata-list.component.html',
+  templateUrl: './timedata-list-table.component.html',
   styleUrls: ['./timedata-list.component.css']
 })
 export class TimedataListComponent implements OnInit {

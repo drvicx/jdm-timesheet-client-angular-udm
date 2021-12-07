@@ -1,0 +1,53 @@
+<div class="orgdata-component-v1">
+
+  <h3>ORGDATA-LIST-TABLE-COMPONENT</h3>
+  <hr>
+
+  <div class="table table-light">
+
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">orgName</th>
+              <th scope="col">depName</th>
+              <th scope="col">okud</th>
+              <th scope="col">okpo</th>
+              <th scope="col">depBoss</th>
+              <th scope="col">responder</th>
+              <th scope="col">logo1</th>
+              <th scope="col">logo2</th>
+              <th scope="col">dateBegin</th>
+              <th scope="col">dateEnd</th>
+              <!-- Virtual field: Logo FontAwesome -->
+              <th scope="col">logo0</th>
+          </tr>
+      </thead>
+
+      <tbody>
+          <tr *ngFor="let org of orgdatas">
+              <th scope="row">{{ org.recordId }}</th>
+              <td>{{ org.orgName }}</td>
+              <td>{{ org.depName }}</td>
+              <td>{{ org.okud }}</td>
+              <td>{{ org.okpo }}</td>
+              <td>{{ org.depBoss }}</td>
+              <td>{{ org.responder }}</td>
+              <td>{{ org.logo1 }}</td>
+              <td>{{ org.logo2 }}</td>
+              <td>{{ org.dateBegin | date:'dd.MM.yyyy' }}</td>
+
+              <!-- Angular dynamic checking with ngIf -->
+              <td *ngIf="org.dateEnd; else defaultDate">{{ org.dateEnd }}</td>
+
+              <ng-template #defaultDate>
+                  <td> {{ today | date:'dd.MM.yyyy' }} </td>
+              </ng-template>
+
+              <!-- Virtual field: Logo FontAwesome -->
+              <td><i class="fa fa-hands"></i></td>
+          </tr>
+
+      </tbody>
+  </div>
+
+</div>

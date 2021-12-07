@@ -1,0 +1,60 @@
+<div class="user-component-v1">
+
+  <h3>USER-LIST-TABLE-COMPONENT</h3>
+  <hr>
+
+  <div class="table table-light table-sm">
+
+      <thead>
+          <tr>
+              <th scope="col">#</th>
+              <th scope="col">persNum</th>
+              <th scope="col">firstName</th>
+              <th scope="col">middleName</th>
+              <th scope="col">lastName</th>
+              <th scope="col">birthDate</th>
+              <th scope="col">login</th>
+              <th scope="col">positionEng</th>
+              <th scope="col">positionRus</th>
+              <th scope="col">phoneWork</th>
+              <th scope="col">phonePers</th>
+              <th scope="col">emailWork</th>
+              <th scope="col">emailPers</th>
+              <th scope="col">photoLink</th>
+              <th scope="col">link1</th>
+              <th scope="col">link2</th>
+              <th scope="col">link3</th>
+              <th scope="col">accessLevel</th>
+              <th scope="col">hireDate</th>
+              <th scope="col">fireDate</th>
+          </tr>
+      </thead>
+
+      <tbody>
+          <tr *ngFor="let user of users">
+              <th scope="row">{{ user.userId }}</th>
+              <td>{{ user.personalNumber }}</td>
+              <td>{{ user.firstName }}</td>
+              <td>{{ user.middleName }}</td>
+              <td>{{ user.lastName }}</td>
+              <td>{{ user.birthDate | date:'dd.MM.yyyy' }}</td>
+              <td>{{ user.login }}</td>
+              <td>{{ user.positionEng }}</td>
+              <td>{{ user.positionRus }}</td>
+              <td>{{ user.phoneWork }}</td>
+              <td>{{ user.phonePers }}</td>
+              <td><a href="mailto:{{ user.emailWork }}" target="_blank">email1</a></td>
+              <td><a href="mailto:{{ user.emailPers }}" target="_blank">email2</a></td>
+              <td><a href="{{ user.photoLink }}" target="_blank">photo</a></td>
+              <td><a href="{{ user.socialLink1 }}" target="_blank">about</a></td>
+              <td><a href="{{ user.socialLink2 }}" target="_blank">bio</a></td>
+              <td><a href="{{ user.socialLink3 }}" target="_blank">social</a></td>
+              <td>{{ user.accessLevel }}</td>
+              <td>{{ user.hireDate }}</td>
+              <td>{{ user.fireDate }}</td>
+          </tr>
+
+      </tbody>
+  </div>
+
+</div>

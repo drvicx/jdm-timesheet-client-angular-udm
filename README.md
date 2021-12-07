@@ -7,6 +7,12 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =CHANGE LOG
 
+05: 20211207_2340:
+<pre>
+- Implemented CSS "Boostrap 5" and "Font Awesome Glyph Icons";
+- Bootstrap 5 CSS styles used in Orgdata, User and Timedata Component html-templates (table output);
+</pre>
+
 04: 20211207_1630:
 <pre>
 - Implemented NEW Data Model for Orgdata and User Components (ORGDATA and USER Tables changed on Backend);
@@ -96,7 +102,11 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =APP-PREVIEW
 
-- 1.03. Orgdata and User NEW Model 
+- 1.04. Orgdata & User NEW Model + Bootstrap 5 Tables
+
+![preview](_preview/angular-app-preview_20211207_2340.png?raw=true)
+
+- 1.03. Orgdata & User NEW Model 
 
 ![preview](_preview/angular-app-preview_20211207_1630.png?raw=true)
 

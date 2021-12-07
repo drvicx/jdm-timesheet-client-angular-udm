@@ -6,7 +6,8 @@ import { Orgdata } from 'src/app/common/orgdata';
 
 @Component({
   selector: 'app-orgdata-list',
-  templateUrl: './orgdata-list.component.html',
+  //templateUrl: './orgdata-list.component.html',
+  templateUrl: './orgdata-list-table.component.html',
   styleUrls: ['./orgdata-list.component.css']
 })
 export class OrgdataListComponent implements OnInit {

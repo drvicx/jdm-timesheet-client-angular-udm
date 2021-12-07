@@ -1,0 +1,31 @@
+<div class="timedata-component-v1">
+
+  <h3>USER-LIST-TABLE-COMPONENT</h3>
+  <hr>
+
+  <div class="table table-light table-sm">
+
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">userId</th>
+            <th scope="col">date</th>
+            <th scope="col">hour</th>
+            <th scope="col">type</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let timedata of timedatas.slice(0,5)">
+          <th scope="row">{{ timedata.id }}</th>
+          <td>{{ timedata.userId }}</td>
+          <td>{{ timedata.date }}</td>
+          <td>{{ timedata.hour }}</td>
+          <td>{{ timedata.type }}</td>
+        </tr>
+
+    </tbody>
+
+  </div>
+
+</div>
