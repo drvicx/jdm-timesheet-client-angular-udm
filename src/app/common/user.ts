@@ -6,9 +6,18 @@ export class User {
   firstName: string;
   lastName: string;
   middleName: string;
+  birthDate: Date;
   login: string;
   positionEng: string;
   positionRus: string;
+  phoneWork: string;
+  phonePers: string;
+  emailWork: string;
+  emailPers: string;
+  photoLink: string;
+  socialLink1: string;
+  socialLink2: string;
+  socialLink3: string;
   accessLevel: string;
   hireDate: Date;
   fireDate: Date;
@@ -19,9 +28,18 @@ export class User {
               firstName: string,
               lastName: string,
               middleName: string,
+              birthDate: Date,
               login: string,
               positionEng: string,
               positionRus: string,
+              phoneWork: string,
+              phonePers: string,
+              emailWork: string,
+              emailPers: string,
+              photoLink: string,
+              socialLink1: string,
+              socialLink2: string,
+              socialLink3: string,
               accessLevel: string,
               hireDate: Date,
               fireDate: Date) {
@@ -32,9 +50,18 @@ export class User {
     this.firstName = firstName;
     this.lastName = lastName;
     this.middleName = middleName;
+    this.birthDate = birthDate;
     this.login = login;
     this.positionEng = positionEng;
     this.positionRus = positionRus;
+    this.phoneWork = phoneWork;
+    this.phonePers = phonePers;
+    this.emailWork = emailWork;
+    this.emailPers = emailPers;
+    this.photoLink = photoLink;
+    this.socialLink1 = socialLink1;
+    this.socialLink2 = socialLink2;
+    this.socialLink3 = socialLink3;
     this.accessLevel = accessLevel;
     this.hireDate = hireDate;
     this.fireDate = fireDate;

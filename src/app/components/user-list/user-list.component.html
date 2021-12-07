@@ -1,0 +1,37 @@
+<div class="user-component-v1">
+
+  <h3>USER-LIST-COMPONENT</h3>
+
+  <p style="color: #1976D2">userId | personalNumber | firstName | middleName | lastName | birthDate | login | positionEng | positionRus | phoneWork | phonePers | emailWork | emailPers | photoLink | socialLink1 | socialLink2 | socialLink3 | accessLevel | hireDate | fireDate</p>
+  <p *ngFor="let user of users">
+    {{ user.userId }} |
+    {{ user.personalNumber }} |
+    {{ user.firstName }} |
+    {{ user.middleName }} |
+    {{ user.lastName }} |
+    {{ user.birthDate | date:'dd.MM.yyyy' }} |
+    {{ user.login }} |
+    {{ user.positionEng }} |
+    {{ user.positionRus }} |
+    {{ user.phoneWork }} |
+    {{ user.phonePers }} |
+    {{ user.emailWork }} |
+    {{ user.emailPers }} |
+    {{ user.photoLink }} |
+    <a href="{{ user.socialLink1 }}" target="_blank">about</a> |
+    <a href="{{ user.socialLink2 }}" target="_blank">bio</a> |
+    <a href="{{ user.socialLink3 }}" target="_blank">social</a> |
+    {{ user.accessLevel }} |
+    {{ user.hireDate | date:'dd.MM.yyyy' }} |
+    <!--{{ user.fireDate | date:'dd.MM.yyyy' }}-->
+
+    <!--If fireDate IS NULL - print "works"/"работает" -->
+    <span *ngIf="user.fireDate; else userHireStatusString">{{ user.fireDate | date:'dd.MM.yyyy' }}</span>
+  </p>
+
+  <ng-template #userHireStatusString>
+    <span style="color: rgb(191,191,191)"> работает </span>
+  </ng-template>
+
+</div>
+

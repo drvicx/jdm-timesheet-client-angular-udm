@@ -8,6 +8,8 @@ export class Orgdata {
   okpo: number;
   depBoss: string;
   responder: string;
+  logo1: string;
+  logo2: string;
   dateBegin: Date;
   dateEnd: Date;
 
@@ -19,6 +21,8 @@ export class Orgdata {
               okpo: number,
               depBoss: string,
               responder: string,
+              logo1: string,
+              logo2: string,
               dateBegin: Date,
               dateEnd: Date) {
 
@@ -30,6 +34,8 @@ export class Orgdata {
     this.okpo = okpo;
     this.depBoss = depBoss;
     this.responder = responder;
+    this.logo1 = logo1;
+    this.logo2 = logo2;
     this.dateBegin = dateBegin;
     this.dateEnd = dateEnd;
   }

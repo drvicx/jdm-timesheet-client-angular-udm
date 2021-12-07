@@ -2,7 +2,7 @@
 
   <h3>ORGDATA-LIST-COMPONENT</h3>
 
-  <p style="color: #1976D2">recordId | orgName | depName | okud | okpo | depBoss | responder | dateBeginV1 | dateBeginV2 | dateEnd</p>
+  <p style="color: #1976D2">recordId | orgName | depName | okud | okpo | depBoss | responder | logo1 | logo2 | dateBeginV1 | dateBeginV2 | dateEnd</p>
   <p *ngFor="let org of orgdatas">
     {{ org.recordId }} |
     {{ org.orgName }} |
@@ -11,6 +11,8 @@
     {{ org.okpo }} |
     {{ org.depBoss }} |
     {{ org.responder }} |
+    {{ org.logo1 }} |
+    {{ org.logo2 }} |
     {{ org.dateBegin }} |                         <!-- default date format: 2021-11-18 -->
     {{ org.dateBegin | date:'dd.MM.yyyy' }} |     <!-- custom date format.: 18.11.2021 -->
     {{ org.dateEnd }} |

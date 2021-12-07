@@ -7,6 +7,16 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =CHANGE LOG
 
+04: 20211207_1630:
+<pre>
+- Implemented NEW Data Model for Orgdata and User Components (ORGDATA and USER Tables changed on Backend);
+</pre>
+
+03: 20211204_2040:
+<pre>
+- Implemented data request-output from the Timesheet service (Orgdata, User, Timedata List Components);
+</pre>
+
 02: 20211204_2040:
 <pre>
 - Implemented data request-output from the Timesheet service (Orgdata, User, Timedata List Components);
@@ -85,6 +95,10 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 <br>
 
 ## =APP-PREVIEW
+
+- 1.03. Orgdata and User NEW Model 
+
+![preview](_preview/angular-app-preview_20211207_1630.png?raw=true)
 
 - 1.02. Orgdata, User, Timedata Angular List-Components output
 
