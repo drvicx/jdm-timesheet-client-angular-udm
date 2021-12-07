@@ -10,7 +10,7 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 05: 20211207_2340:
 <pre>
 - Implemented CSS "Boostrap 5" and "Font Awesome Glyph Icons";
-- Bootstrap 5 CSS styles used in Orgdata, User and Timedata Component html-templates (table output);
+- Bootstrap 5 CSS styles used in Orgdata, User and Timedata Components html-templates;
 </pre>
 
 04: 20211207_1630:
