@@ -7,27 +7,26 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =CHANGE LOG
 
-05: 20211207_2340:
+05: 20211209_1800:
+<pre>
+- Implemented Design Template similar to "Udemy Angular + Spring Data REST eCommerce project";
+- Implemented Header and Simple User-Cards Components;
+</pre>
+
+04: 20211207_2340:
 <pre>
 - Implemented CSS "Boostrap 5" and "Font Awesome Glyph Icons";
 - Bootstrap 5 CSS styles used in Orgdata, User and Timedata Components html-templates;
 </pre>
 
-04: 20211207_1630:
+03: 20211207_1630:
 <pre>
 - Implemented NEW Data Model for Orgdata and User Components (ORGDATA and USER Tables changed on Backend);
 </pre>
 
-03: 20211204_2040:
-<pre>
-- Implemented data request-output from the Timesheet service (Orgdata, User, Timedata List Components);
-</pre>
-
 02: 20211204_2040:
 <pre>
-- Implemented data request-output from the Timesheet service (Orgdata, User, Timedata List Components);
-  ..Ладно, буду писать по Русски если вы ни..я не понимаете / Ok, I will write comments in Russian as you like..
-- Реализовано отображение данных с REST-API сервиса бакенда Timesheet (Orgdata, User, Timedata);
+- Implemented data request and output from REST-API Timesheet service (Orgdata, User, Timedata List Components);
 </pre>
 
 01: 20211203_1150:
@@ -101,6 +100,10 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 <br>
 
 ## =APP-PREVIEW
+
+- 1.05. Implemented App Design-Template + Header and Simple User-Cards Components
+
+![preview](_preview/angular-app-preview_20211209_1800.png?raw=true)
 
 - 1.04. Orgdata & User NEW Model + Bootstrap 5 Tables
 

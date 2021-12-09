@@ -1,21 +1,151 @@
-<!-- HEADER-TOOLBAR -->
-<div class="toolbar" role="banner">
-  <img width="40" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
-  <span>{{ title }}</span>
+<!-- BODY CONTENT -->
+<div class="page-wrapper">
+
+  <!-- MENU SIDEBAR-->
+  <aside class="menu-sidebar d-none d-lg-block">
+    <div class="org-logo">
+      <a href="#">
+        <img src="assets/images/logo.png" alt="roga&KopitaLogo" class="img-responsive">
+      </a>
+    </div>
+    <div class="menu-sidebar-content js-scrollbar1">
+      <nav class="navbar-sidebar">
+
+        <!-- МЕНЮ КАРТОЧЕК СОТРУДНИКОВ -->
+        <h3 class="users-menu-title">Сотрудники</h3>
+        <ul class="list-unstyled navbar-list navbar-custom">
+          <li>
+            <a href="user-card-562.html">Фунт ЗП</a>
+          </li>
+          <li>
+            <a href="user-card-449.html">Бендер ОИ</a>
+          </li>
+          <li>
+            <a href="user-card-623.html">Балаганов ШП</a>
+          </li>
+          <li>
+            <a href="user-card-655.html">Паниковский МС</a>
+          </li>
+          <li>
+            <a href="user-card-134.html">Синицкая ЗВ</a>
+          </li>
+          <li>
+            <a href="user-card-058.html">Козлевич АК</a>
+          </li>
+          <li>
+            <a href="user-card-036.html">Корейко АИ</a>
+          </li>
+        </ul>
+
+        <!-- ОТСТУП МЕЖДУ МЕНЮ -->
+        <span class="menu-spacer"></span>
+
+        <!-- МЕНЮ ТАБЕЛЕЙ СОТРУДНИКОВ -->
+        <h3 class="users-menu-title">Табели</h3>
+        <ul class="list-unstyled navbar-list navbar-custom">
+          <li>
+            <a href="#">Фунт ЗП</a>
+          </li>
+          <li>
+            <a href="#">Бендер ОИ</a>
+          </li>
+          <li>
+            <a href="#">Балаганов ШП</a>
+          </li>
+          <li>
+            <a href="#">Паниковский МС</a>
+          </li>
+          <li>
+            <a href="#">Синицкая ЗВ</a>
+          </li>
+          <li>
+            <a href="#">Козлевич АК</a>
+          </li>
+          <li>
+            <a href="#">Корейко АИ</a>
+          </li>
+        </ul>
+
+        <!-- ОТСТУП МЕЖДУ МЕНЮ -->
+        <span class="menu-spacer"></span>
+
+        <!-- МЕНЮ РАЗНОЕ -->
+        <h3 class="users-menu-title">Карточки</h3>
+        <ul class="list-unstyled navbar-list navbar-custom">
+          <li>
+            <a href="user-form.html">Сотрудник</a>
+          </li>
+          <li>
+            <a href="user-cards.html">Сотрудники</a>
+          </li>
+        </ul>
+
+        <!-- ОТСТУП МЕЖДУ МЕНЮ -->
+        <span class="menu-spacer"></span>
+
+        <!-- МЕНЮ ТАБЕЛЯ -->
+        <h3 class="users-menu-title">Табель</h3>
+        <ul class="list-unstyled navbar-list navbar-custom">
+          <li>
+            <a href="#">Смотреть</a>
+          </li>
+          <li>
+            <a href="#">Скачать</a>
+          </li>
+        </ul>
+
+      </nav>
+    </div>
+  </aside>
+  <!-- END MENU SIDEBAR-->
+
+  <!-- PAGE CONTAINER-->
+  <div class="page-container">
+
+    <!-- HEADER DESKTOP-->
+    <header class="header-desktop">
+      <div class="section-content section-content-p30">
+        <div class="container-fluid">
+          <div class="header-wrap">
+
+              <div class="form-header">
+
+                  <!-- ORGDATA-HEADER-SINGLE COMPONENT-->
+                  <app-orgdata-header-single></app-orgdata-header-single>
+
+              </div>
+
+              <div class="cart-area d-n">
+                <a href="#">
+                  <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER DESKTOP-->
+
+    <!-- MAIN CONTENT-->
+    <div class="main-content">
+
+        <!-- USER SIMPLE CARDS -->
+        <app-user-card-list-home></app-user-card-list-home>
+
+    </div>
+    <!-- END MAIN CONTENT-->
+
+  </div>
 </div>
-<!-- end HEADER-TOOLBAR -->
+<!-- END PAGE CONTAINER-->
 
 
-<!--MAIN-CONTENT -->
-<div class="content" role="main">
-
-  <app-orgdata-list></app-orgdata-list>
-
-  <hr>
-  <app-user-list></app-user-list>
-
-  <hr>
-  <app-timedata-list></app-timedata-list>
-
-</div>
-<!--end MAIN-CONTENT -->
+<footer>
+  <ul>
+    <li><a href="#">О проекте</a></li>
+    <li><a href="#">Контакты</a></li>
+    <li><a href="#">Помощь</a></li>
+  </ul>
+</footer>
+<!-- END BODY CONTENT -->

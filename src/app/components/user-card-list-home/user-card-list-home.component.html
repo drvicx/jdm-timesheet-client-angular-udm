@@ -1,0 +1,26 @@
+<div class="section-content section-content-p30">
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <!-- USER SIMPLE-CARD BLOCK-->
+      <div *ngFor="let user of users" class="col-md-3">
+        <div class="product-box">
+          <!--<a href="user-detail-561.html"> -->
+          <a href="#">
+            <img style="height: 150px" src="{{ user.photoLink }}" class="img-responsive">
+          </a><br>
+          <!--<a href="user-detail-561.html"> -->
+          <a href="#">
+            <h1>{{ user.lastName }} {{ user.firstName }} {{ user.middleName }}</h1>
+          </a>
+          <div class="user-position-title">{{ user.positionRus }}</div>
+        </div>
+      </div>
+      <!-- END USER SIMPLE-CARD BLOCK-->
+
+      <!--<div class="clearfix"></div>-->
+    </div>
+
+  </div>
+</div>
