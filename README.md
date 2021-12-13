@@ -72,8 +72,8 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
   1.02 - [Timesheet Service - Orgdata - getById](http://localhost:8600/api/orgdatas/1) -- single record <br>
   1.03 - [Timesheet Service - Orgdata - findByRecordId](http://localhost:8600/api/orgdatas/search/findByRecordId?id=1) -- single <br>
 
-  2.01 - [Timesheet Service - User - getAll (v1)](http://localhost:8600/api/users) -- multiple <br>
-  2.02 - [Timesheet Service - User - getAll (v2)](http://localhost:8600/api/users/search/getAll) -- multiple <br>
+  2.01 - [Timesheet Service - User - getAll](http://localhost:8600/api/users) -- multiple <br>
+  2.02 - [Timesheet Service - User - findAll](http://localhost:8600/api/users/search/getAll) -- multiple <br>
   2.03 - [Timesheet Service - User - getById](http://localhost:8600/api/users/1) -- single <br>
   2.04 - [Timesheet Service - User - findById](http://localhost:8600/api/users/search/findByUserId?id=1) -- single <br>
   2.05 - [Timesheet Service - User - findByPersonalNumber](http://localhost:8600/api/users/search/findByPersonalNumber?num=562) -- single <br>
