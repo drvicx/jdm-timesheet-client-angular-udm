@@ -7,6 +7,13 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =CHANGE LOG
 
+06: 20211213_2240:
+<pre>
+- Implemented Single extended User-Card Component (user-card-single);
+- Implemented List of extended User-Cards Component (user-card-list);
+- Implemented NEW endpoint on Backend - get/search all Users (backend endpoints 2.02);
+</pre>
+
 05: 20211209_1800:
 <pre>
 - Implemented Design Template similar to "Udemy Angular + Spring Data REST eCommerce project";
@@ -66,9 +73,10 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
   1.03 - [Timesheet Service - Orgdata - findByRecordId](http://localhost:8600/api/orgdatas/search/findByRecordId?id=1) -- single <br>
 
   2.01 - [Timesheet Service - User - getAll](http://localhost:8600/api/users) -- multiple <br>
-  2.02 - [Timesheet Service - User - getById](http://localhost:8600/api/users/1) -- single <br>
-  2.03 - [Timesheet Service - User - findById](http://localhost:8600/api/users/search/findByUserId?id=1) -- single <br>
-  2.04 - [Timesheet Service - User - findByPersonalNumber](http://localhost:8600/api/users/search/findByPersonalNumber?num=562) -- single <br>
+  2.02 - [Timesheet Service - User - getAll](http://localhost:8600/api/users/search/getAll) -- multiple <br>
+  2.03 - [Timesheet Service - User - getById](http://localhost:8600/api/users/1) -- single <br>
+  2.04 - [Timesheet Service - User - findById](http://localhost:8600/api/users/search/findByUserId?id=1) -- single <br>
+  2.05 - [Timesheet Service - User - findByPersonalNumber](http://localhost:8600/api/users/search/findByPersonalNumber?num=562) -- single <br>
 
   3.01 - [Timesheet Service - Timedata - getAll](http://localhost:8600/api/timedatas) -- paged, 1st 20 records <br>
   3.02 - [Timesheet Service - Timedata - getAll](http://localhost:8600/api/timedatas?page=0&size=30) -- paged, 1st 30 <br>
@@ -101,7 +109,15 @@ Angular REST Client project - Transition project between JDM Timesheet 2.0 and U
 
 ## =APP-PREVIEW
 
-- 1.05. Implemented App Design-Template + Header and Simple User-Cards Components
+- 1.06.1. Single User Card
+
+![preview](_preview/angular-app-preview_20211213_2240_userCard.png?raw=true)
+
+- 1.06.2. List of User Cards
+
+![preview](_preview/angular-app-preview_20211213_2240_userCards.png?raw=true)
+
+- 1.05. Impl App Design-Template + Header + Simple User-Cards Components
 
 ![preview](_preview/angular-app-preview_20211209_1800.png?raw=true)
 

@@ -6,14 +6,17 @@
       <!-- USER SIMPLE-CARD BLOCK-->
       <div *ngFor="let user of users" class="col-md-3">
         <div class="product-box">
+
           <!--<a href="user-detail-561.html"> -->
-          <a href="#">
+          <a routerLink="/users/{{ user.userId }}">
             <img style="height: 150px" src="{{ user.photoLink }}" class="img-responsive">
           </a><br>
+
           <!--<a href="user-detail-561.html"> -->
-          <a href="#">
+          <a routerLink="/users/{{ user.userId }}">
             <h1>{{ user.lastName }} {{ user.firstName }} {{ user.middleName }}</h1>
           </a>
+
           <div class="user-position-title">{{ user.positionRus }}</div>
         </div>
       </div>

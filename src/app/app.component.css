@@ -771,7 +771,7 @@ a.primary-btn:hover{
 }
 
 .active-link {
-  font-weight: bold;
+  /*font-weight: bold;*/    /*--nve@1980: жирный шрифт увеличивает длину строки */
 }
 
 /*

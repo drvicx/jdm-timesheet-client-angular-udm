@@ -15,25 +15,25 @@
         <h3 class="users-menu-title">Сотрудники</h3>
         <ul class="list-unstyled navbar-list navbar-custom">
           <li>
-            <a href="user-card-562.html">Фунт ЗП</a>
+            <a routerLink="/users/1" routerLinkActive="active-link">Фунт ЗП</a>
           </li>
           <li>
-            <a href="user-card-449.html">Бендер ОИ</a>
+            <a routerLink="/users/2" routerLinkActive="active-link">Бендер ОИ</a>
           </li>
           <li>
-            <a href="user-card-623.html">Балаганов ШП</a>
+            <a routerLink="/users/3" routerLinkActive="active-link">Балаганов ШП</a>
           </li>
           <li>
-            <a href="user-card-655.html">Паниковский МС</a>
+            <a routerLink="/users/4" routerLinkActive="active-link">Паниковский МС</a>
           </li>
           <li>
-            <a href="user-card-134.html">Синицкая ЗВ</a>
+            <a routerLink="/users/5" routerLinkActive="active-link">Синицкая ЗВ</a>
           </li>
           <li>
-            <a href="user-card-058.html">Козлевич АК</a>
+            <a routerLink="/users/6" routerLinkActive="active-link">Козлевич АК</a>
           </li>
           <li>
-            <a href="user-card-036.html">Корейко АИ</a>
+            <a routerLink="/users/7" routerLinkActive="active-link">Корейко АИ</a>
           </li>
         </ul>
 
@@ -72,11 +72,16 @@
         <!-- МЕНЮ РАЗНОЕ -->
         <h3 class="users-menu-title">Карточки</h3>
         <ul class="list-unstyled navbar-list navbar-custom">
+          <!-- пункт пока отключен (форма добавления сотрудника) -->
+          <!--
           <li>
             <a href="user-form.html">Сотрудник</a>
           </li>
+          -->
           <li>
-            <a href="user-cards.html">Сотрудники</a>
+            <!--<a href="user-cards.html">Сотрудники</a>-->
+            <a routerLink="/users/search/findAll">Сотрудники</a>
+
           </li>
         </ul>
 
@@ -131,7 +136,10 @@
     <div class="main-content">
 
         <!-- USER SIMPLE CARDS -->
-        <app-user-card-list-home></app-user-card-list-home>
+        <!-- <app-user-card-list-home></app-user-card-list-home> -->
+
+        <!-- ROUTER OUTLET -->
+        <router-outlet></router-outlet>
 
     </div>
     <!-- END MAIN CONTENT-->

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from "@angular/common/http";
+import { RouterModule, Routes } from "@angular/router";
 
 import { AppComponent } from './app.component';
 
@@ -21,6 +22,18 @@ import { UserService } from "./services/user.service";
 import { TimedataService } from "./services/timedata.service";
 
 
+//--CONSTANTS
+//--app routes
+const routes: Routes = [
+  { path: 'users/:id', component: UserCardSingleComponent },          //--parametrized route;
+  { path: 'users', component: UserCardListHomeComponent },            //--simple user-cards route;
+  { path: 'users/search/findAll', component: UserCardListComponent }, //--enhanced user-cards route;
+
+  { path: '', redirectTo: '/users', pathMatch: 'full'},		    //--if path not set - redirect to '/users';
+  { path: '**', redirectTo: '/users', pathMatch: 'full'}	    //--default route;
+];
+
+
 //--MODULES CONFIGURATION
 @NgModule({
   declarations: [
@@ -36,6 +49,7 @@ import { TimedataService } from "./services/timedata.service";
     UserCardSingleComponent
   ],
   imports: [
+    RouterModule.forRoot(routes),
     BrowserModule,
     HttpClientModule
   ],

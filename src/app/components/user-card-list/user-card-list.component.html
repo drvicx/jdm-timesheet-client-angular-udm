@@ -1,1 +1,56 @@
-<p>user-card-list works!</p>
+<div class="section-content section-content-p30">
+  <div class="container-fluid">
+    <table class="table table-bordered" style="">
+      <tr>
+        <th width="10%">Фото</th>
+        <th width="30%">Личные данные</th>
+        <th width="30%">Служебные данные</th>
+        <th width="30%">Специальные данные</th>
+      </tr>
+
+      <!-- КАРТОЧКА СОТРУДНИКА -->
+      <!--<tr *ngFor="let user of users.slice(0,3)" class="user-card-row">-->
+      <tr *ngFor="let user of users" class="user-card-row">
+        <!-- Фото -->
+        <td class="user-card-row-image"><img src="{{ user.photoLink }}" class="img-responsive" width="150px"></td>
+        <!-- Личные данные -->
+        <td class="user-card-row-table">
+          <table class="user-card-table">
+            <tr> <td>Фамилия</td>           <td>{{ user.lastName }}</td>                      </tr>
+            <tr> <td>Имя</td>               <td>{{ user.firstName }}</td>                     </tr>
+            <tr> <td>Отчество</td>          <td>{{ user.middleName }}</td>                    </tr>
+            <tr> <td>Дата рождения</td>     <td>{{ user.birthDate | date:'dd.MM.yyyy'}}</td>  </tr>
+            <tr> <td>Личный телефон</td>    <td>{{ user.phonePers }}</td>                     </tr>
+            <tr> <td>Личная почта</td>      <td>{{ user.emailPers }}</td>                     </tr>
+            <tr> <td>Источник1</td>         <td><a href="{{ user.socialLink1 }}" target="_blank">ссылка</a></td> </tr>
+            <tr> <td>Источник2</td>         <td><a href="{{ user.socialLink2 }}" target="_blank">ссылка</a></td> </tr>
+            <tr> <td>Источник3</td>         <td><a href="{{ user.socialLink3 }}" target="_blank">ссылка</a></td> </tr>
+          </table>
+        </td>
+        <!-- Служебные данные -->
+        <td class="user-card-row-table">
+          <table class="user-card-table">
+            <tr> <td>Табельный номер</td>   <td>{{ user.personalNumber }}</td>              </tr>
+            <tr> <td>Должность</td>         <td>{{ user.positionRus }}</td>                 </tr>
+            <tr> <td>Служебный телефон</td> <td>{{ user.phoneWork }}</td>                   </tr>
+            <tr> <td>Служебная почта</td>   <td>{{ user.emailWork }}</td>                   </tr>
+            <tr> <td>Дата приема</td>       <td>{{ user.hireDate | date:'dd.MM.yyyy'}}</td> </tr>
+            <tr> <td>Дата увольнения</td>   <td>{{ user.fireDate | date:'dd.MM.yyyy'}}</td> </tr>
+          </table>
+        </td>
+        <!-- Специальные данные -->
+        <td class="user-card-row-table">
+          <table class="user-card-table">
+            <tr> <td>Id</td>                <td>{{ user.userId }}</td>      </tr>
+            <tr> <td>Login</td>             <td>{{ user.login }}</td>       </tr>
+            <tr> <td>PositionEng</td>       <td>{{ user.positionEng }}</td> </tr>
+            <tr> <td>AccessLevel</td>       <td>{{ user.accessLevel }}</td> </tr>
+            <tr> <td>PhotoLink</td>         <td><a href="{{ user.photoLink }}" target="_blank">link</a></td> </tr>
+          </table>
+        </td>
+      </tr><!-- КАРТОЧКА СОТРУДНИКА -->
+
+    </table>
+
+  </div>
+</div>

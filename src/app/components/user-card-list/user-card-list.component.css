@@ -1,0 +1,121 @@
+/*
+ * ----------------------------
+ * SECTION-CONTENT
+ * ----------------------------
+ */
+section{
+  position:relative
+}
+
+.section-content{
+  position:relative;
+  margin:0 auto;
+  z-index:1
+}
+
+.section-content-p30{
+  padding:0 30px
+}
+
+
+/*
+ * ----------------------------
+ * USER-CARD
+ * ----------------------------
+ */
+.table{
+  margin:0
+}
+table.table.table-bordered{
+  border:1px solid #ccc;
+  background:#fff
+}
+.table-bordered td,.table-bordered th{
+  border:1px solid #dee2e6
+}
+table.table.table-bordered th{
+  background:#0da8e4;
+  color:#fff;
+  font-size:14px;
+  padding:7px
+}
+
+
+/*
+ * ----------------------------
+ * USERS CSS
+ * ----------------------------
+ */
+.user-card-row {
+  border: 0px solid red;
+  vertical-align: top;
+}
+
+.user-card-row-image {
+  padding-top: 15px;
+
+}
+
+.user-card-row-table {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+
+}
+
+.user-card-table {
+  border: 0px solid green;
+  color: #555555;
+  /*text-align:left;*/
+}
+
+.user-card-table tr {
+  border: 0px solid red;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 15px;
+  /*border: 0;*/
+}
+
+.user-card-table tr td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 15px;
+  border: 0;
+}
+
+.user-card-table tr td:first-child {
+  /*color: red;*/
+  width: 150px;
+
+}
+
+a {
+  display:block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+/*
+ * ----------------------------
+ * MEDIA QUERIES
+ * ----------------------------
+ */
+@media (max-width:991px){
+  .section-content-p30{
+    padding:0
+  }
+}
+
+@media (max-width:767px){
+
+  .section-content.section-content-p30.e-spc{
+    padding-top:100px
+  }
+
+}
